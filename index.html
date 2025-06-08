@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Project</title>
+    <script src="https://kit.fontawesome.com/466ccf27ba.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- header section -->
@@ -26,13 +27,26 @@
     <main>
          <!-- home section -->
          <section>
-             <dd><span style="color: blueviolet;"><b>Hey there,</b></span> My name is Adejare Shadrach and you're welcome to my 
+            <dd><span style="color: blueviolet;"><b>Hey there,</b></span> My name is Adejare Shadrach and you're welcome to my 
                 <b><span style="color: red;">GOMYCODE</span></b> Checkpoint project.
-            I'll be making use of what I've learnt and practiced from the lessons in HTML. You can continue <br>Scrolling </dd>
+            I'll be making use of what I've learnt and practiced from the lessons in HTML. You can continue Scrolling <i class="fa-solid fa-arrow-down"></i> </dd>
          </section>
+
         <!-- about section -->
          <section>
-
+            <h2 align="center">About Section</h2>
+            <form action="">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
          </section>
 
          <!-- work section -->
